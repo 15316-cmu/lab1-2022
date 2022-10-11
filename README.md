@@ -434,4 +434,5 @@ The autograder will assign points to test cases as follows:
 * 0% credit if your solution returns `Result.Satisfies` or `Result.Violates`, different from the ground truth.
 * 75% credit if your solution returns `Result.Unknown` when the ground truth is `Result.Violates`.
 * 25% credit if your solution results `Result.Unknown` when the ground truth is `Result.Satisfies`.
+
 If your implementation is unable to run an analysis to completion on all of the test cases (e.g., it raises an exception before returning a `symbolic.Result`), then the course staff will manually inspect your code, and assign partial credit based on our assessed level of completion of the requirements listed in this readme.
